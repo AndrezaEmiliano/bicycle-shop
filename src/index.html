@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta
+      name="description"
+      content="Loja Bicycle Shop - as melhores bike do mundo"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Bicycle Shop</title>
+  </head>
+
+  <body>
+    <header class="header wrapper">
+      <h1 class="logo">
+        <img
+          class="logo__image"
+          src="/assets/images/logo.svg"
+          alt="Logo da loja Bicycle Shop"
+        />
+      </h1>
+
+      <p class="header__title">Paixão pela bike, sede por desafios</p>
+
+      <div class="cart">
+        <button class="cart__button" type="button" data-cart-amount="2">
+          Carrinho de compras
+        </button>
+      </div>
+    </header>
+
+    <main class="wrapper">
+      <section class="filters">
+        <input class="input" type="search" placeholder="Buscar produto" />
+
+        <select class="input">
+          <option value="all" selected>Todas as categorias</option>
+          <option value="bike">Bicicletas</option>
+        </select>
+
+        <select class="input">
+          <option value="lowest-price" selected>Menor preço</option>
+          <option value="biggest-price">Maior preço</option>
+        </select>
+      </section>
+
+      <section>
+        <ul class="product-list">
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/mountain-bike.png"
+              alt="Imagem do produto Montain Bike Everest"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Moutain Bike Everest
+                <span class="display--block font--size-1">R$ 2250,00</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/speed-bike.png"
+              alt="Imagem do produto Speed Bike Emigrantes"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Speed Bike Emigrantes
+                <span class="display--block font--size-1">R$ 5640,00</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/classic-bike.png"
+              alt="Imagem do produto Chinatown Classic Bike"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Chinatown Classic Bike
+                <span class="display--block font--size-1">R$ 799,00</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/gloves.png"
+              alt="Imagem do produto Luvas Tyson"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Luvas Tyson
+                <span class="display--block font--size-1">R$ 189,00</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/squeezer.png"
+              alt="Imagem do produto Squeezer Squirtle"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Squeezer Squirtle
+                <span class="display--block font--size-1">R$ 30,00</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <img
+              class="card__image"
+              src="/assets/images/products/helmet.png"
+              alt="Imagem do produto Capacete Dragon Born"
+            />
+
+            <div class="card__info">
+              <p class="card__text">
+                Capacete Dragon Born
+                <span class="display--block font--size-1">R$ 650,90</span>
+              </p>
+
+              <button class="button">Adicionar ao carrinho</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
