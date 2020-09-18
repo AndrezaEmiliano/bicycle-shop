@@ -1,4 +1,4 @@
-const productList = [
+const products = [
   {
     image: "/assets/images/products/mountain-bike.png",
     description: "Moutain Bike Everest",
@@ -36,3 +36,9 @@ const productList = [
     price: 650.9,
   },
 ];
+
+const getProducts = () => {
+  return [...products];
+};
+
+export { getProducts };
