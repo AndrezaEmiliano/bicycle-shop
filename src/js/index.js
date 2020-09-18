@@ -1,9 +1,11 @@
-const productsElement = document.querySelector(".product-list");
+import { getProducts } from "./mocks/products.js";
 
-let cardProductList = "";
+const productsElement = document.querySelector("#product-list");
 
-productList.forEach(function (product) {
-  cardProductList += `
+let productsElements = "";
+
+getProducts().forEach((product) => {
+  productsElements += `
     <li class="card">
       <img
         class="card__image"
@@ -26,4 +28,4 @@ productList.forEach(function (product) {
   `;
 });
 
-productsElement.innerHTML = cardProductList;
+productsElement.innerHTML = productsElements;
