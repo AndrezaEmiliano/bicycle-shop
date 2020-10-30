@@ -22,7 +22,7 @@ class Main {
 
     this.products = getProducts();
 
-    this.renderProducts(this.products);
+    this.applyFilters();
   }
 
   getRenderElement() {
